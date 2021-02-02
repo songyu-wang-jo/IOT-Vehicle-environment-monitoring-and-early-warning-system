@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:layout_centerInParent="true"/>
+
+    <EditText
+            android:id="@+id/input"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:autofillHints="@string/message"
+            android:textSize="16sp"
+            android:inputType="text"
+            tools:ignore="LabelFor"
+            android:hint="@string/addressSuggest"
+            android:layout_below="@+id/address"
+            android:layout_centerHorizontal="true"/>
+    <Button
+            android:id="@+id/submit"
+            android:layout_below="@+id/input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/doAddress"/>
+
+</RelativeLayout>
