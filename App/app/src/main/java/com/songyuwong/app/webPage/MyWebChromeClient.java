@@ -7,7 +7,6 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import com.songyuwong.app.R;
 
-import java.sql.Time;
 
 
 public class MyWebChromeClient extends WebChromeClient {
