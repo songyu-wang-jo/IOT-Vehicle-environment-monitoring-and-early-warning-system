@@ -1,4 +1,5 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import {createRouter, createMemoryHistory} from 'vue-router'
+
 
 const routes = [
   {
@@ -7,14 +8,19 @@ const routes = [
     component: () => import('../views/Index')
   },
   {
-    path: '/test',
-    name: 'home',
+    path: '/pc',
+    name: 'pc',
     component: () => import('../views/pc/PC')
+  },
+  {
+    path: '/mobile',
+    name: 'mobile',
+    component: () => import('../views/mobile/Mobile')
   },
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(process.env.BASE_URL),
+  history: createMemoryHistory(process.env.BASE_URL),
   routes
 })
 

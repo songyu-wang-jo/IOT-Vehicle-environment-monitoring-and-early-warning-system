@@ -1,15 +1,14 @@
 <template>
-<div id="pc">
-  PC
-</div>
+  <div id="pc">
+    PC
+  </div>
 </template>
 
 <script>
 export default {
-name: "PC"
+  name: "PC"
 }
 </script>
 
 <style scoped>
-
 </style>
