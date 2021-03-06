@@ -1,12 +1,16 @@
 <template>
   <div class="mobile_main">
-
+    <Map/>
   </div>
 </template>
 
 <script>
+import Map from "@/components/Map";
 export default {
-  name: "MobileMain"
+  name: "MobileMain",
+  components: {
+    Map
+  }
 }
 </script>
 
