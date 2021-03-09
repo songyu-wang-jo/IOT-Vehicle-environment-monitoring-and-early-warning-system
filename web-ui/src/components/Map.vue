@@ -26,7 +26,7 @@ export default {
     init: function () {
       MapLoader().then(AMap => {
         map = new AMap.Map('container', {
-          center: [108.952, 34.223],//需求的城市的经度和 纬度
+          center: [117.117, 29.27],//需求的城市的经度和 纬度
           resizeEnable: true,
           zoom: 10
         })
