@@ -1,0 +1,12 @@
+server:
+  port: 8787
+  servlet:
+    context-path: '/iot'
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://rm-wz94bld7k3z0628x2ho.mysql.rds.aliyuncs.com:3306/nb_data?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: iot
+    password: Songyuwong@163com
+    driver-class-name: com.mysql.cj.jdbc.Driver

@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">App</string>
-    <string name="message">请输入连接</string>
-    <string name="doAddress">连接</string>
-    <string name="address">输入连接</string>
-    <string name="addressSuggest">请以对应格式输入（ip:port）：</string>
-    <string name="loading_message">加载页面中.......</string>
-</resources>

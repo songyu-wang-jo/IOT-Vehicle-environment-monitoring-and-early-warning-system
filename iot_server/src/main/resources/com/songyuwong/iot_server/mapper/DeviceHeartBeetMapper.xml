@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.songyuwong.iot_server.mapper.DeviceHeartBeetMapper">
+<!--    <select id="selectItemValue" resultType="map">-->
+<!--        SELECT ITEM_VALUE as value,ITEM_MEAN as label FROM `JH_BAS_WS_ITEM`-->
+<!--        <where>-->
+<!--            cv_id=#{param.cvId}-->
+<!--            <if test="param.itemMean != null and param.itemMean != ''">-->
+<!--                and  item_mean  like concat('%',#{param.itemMean},'%')-->
+<!--            </if>-->
+<!--        </where>-->
+<!--    </select>-->
+    <select id="deviceHeartBeetPage" resultType="com.songyuwong.iot_server.entity.DeviceHeartBeet">
+        <![CDATA[SELECT * FROM `device_heart_beet`]]>
+    </select>
+</mapper>

@@ -1,0 +1,47 @@
+{
+  "deviceType": "ToxicGas",
+  "iotId": "3H5pg3LQyldBcndyhjWO000000",
+  "requestId": "null",
+  "checkFailedData": {},
+  "productKey": "a1fCnFS7KyA",
+  "gmtCreate": 1615819495598,
+  "deviceName": "Car_Sensors",
+  "items": {
+    "TEMP": {
+      "time": 1615819495596,
+      "value": 27
+    },
+    "HUMI": {
+      "time": 1615819495596,
+      "value": 59
+    },
+    "JSDY": {
+      "time": 1615819495596,
+      "value": 0.012207
+    },
+    "JSDZ": {
+      "time": 1615819495596,
+      "value": 0.927734
+    },
+    "JDY": {
+      "time": 1615819495596,
+      "value": 89.650277
+    },
+    "MQ3": {
+      "time": 1615819495596,
+      "value": 5
+    },
+    "JSDX": {
+      "time": 1615819495596,
+      "value": -0.060425
+    },
+    "JDX": {
+      "time": 1615819495596,
+      "value": 95.569069
+    },
+    "MQ2": {
+      "time": 1615819495596,
+      "value": 12
+    }
+  }
+}
